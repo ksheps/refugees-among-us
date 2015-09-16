@@ -23,9 +23,9 @@ var map = L.mapbox.map('map', 'kmshepherd.cieejsdpl027csjm2hgen2ywf')
     .setView([22.7850, 5.5228], 3);
 
 $.getJSON('refugees.json', function(json) {
-	console.log(json);
+	//console.log(json);
 	json.forEach(function(j) {
-		console.log(j);
+		//console.log(j);
 		L.mapbox.featureLayer({
 		    type: 'Feature',
 		    geometry: {
@@ -42,9 +42,9 @@ $.getJSON('refugees.json', function(json) {
 		        'marker-color': '#BE9A6B'
 		    }
 		}).bindPopup(
-			j.photo+"<h1>"+j.name+"</br>"+j.country+"</br>"+j.year+"</h1>"+"</br>"+"<h4>"+j.profile+"<h4>"+"<h5>"+j.byline+"</h5>", 
+			j.photo+"</br>"+"<h1>"+j.name+"</br>"+j.country+"</br>"+j.year+"</h1>"+"</br>"+j.profile+"<h5>"+j.byline+"</h5>", 
 			{
-				minWidth: 500,
+				minWidth: 430,
 				maxHeight: 500
 			})
 			.openPopup()
