@@ -1,26 +1,122 @@
 [
 		{
+			"name": "Audu",
+			"country": "Nigeria",
+			"year": "2014",
+			"photo": "<img src='img/Audu.jpg'>",
+			"location": {
+				"lat": 8.0000,
+				"long": 10.0000
+			},
+			"profile": "profile coming soon",
+			"byline": " – Ashley E. Chappo"
+		},
+		{
+			"name": "Ching-Fai Choy",
+			"country": "China",
+			"year": 1975,
+			"photo": "<img src='img/Choy.jpg'>",
+			"location": {
+				"lat": 23.129110,
+				"long": 113.264385
+			},
+			"profile": "profile coming soon",
+			"byline": " – Susmita Baral"
+		},
+		{
 			"name": "Thomas Martin", 
 			"country": "Jamaica", 
 			"year": 2013,
-			"photo": "<img src='http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg'>",
+			"photo": "<img src='img/Martin.jpg'>",
 			"location": {
 				"lat": 18.1824, 
 				"long": -77.3218
 			},
 			"profile": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum vulputate enim, et pharetra purus tristique at. Vivamus aliquam sagittis nibh, non volutpat lorem posuere eget. Integer non nisl tellus. Nunc dapibus enim a eros tempus laoreet. Etiam auctor rhoncus sodales. Ut at nunc dolor. Aenean consequat, elit sodales tincidunt dictum, arcu orci commodo urna, eget molestie sapien ligula quis odio. Vivamus vel facilisis elit. Suspendisse libero dolor, tempor porta ultricies ut, dictum porttitor risus. Pellentesque sem justo, pulvinar nec nibh vel, lobortis tincidunt tortor.</p><p>Nunc id urna mauris. Phasellus placerat velit sit amet orci venenatis, a mollis augue iaculis. Integer aliquet nec turpis eget volutpat. Etiam lorem leo, consequat congue mattis in, consectetur quis dui. Integer sollicitudin neque elit, non pretium turpis feugiat eu. Aliquam enim purus, euismod ac risus ac, tincidunt finibus tortor. Mauris facilisis elit lectus, sed dignissim ipsum auctor et. Fusce ac eros lobortis, scelerisque nulla sed, commodo lacus. Pellentesque porta tellus dictum mauris tempor rhoncus. Vestibulum in orci eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce arcu mi, dictum sit amet facilisis nec, aliquet vel justo. Morbi mattis blandit iaculis.</p><p>Morbi non nibh id augue accumsan porttitor eu id metus. Integer arcu dui, scelerisque a vestibulum quis, auctor id mauris. Aenean nunc lectus, rutrum et posuere vitae, blandit id nunc. Sed sed mauris sed nunc efficitur dignissim. Sed facilisis varius nunc, vel euismod elit pulvinar et. Nunc fermentum non risus vel feugiat. Nullam sem libero, fermentum quis feugiat at, laoreet ut leo. In tincidunt quam vitae tincidunt iaculis. Pellentesque dignissim libero sed lorem porta gravida. Aenean eget neque pellentesque, hendrerit arcu non, efficitur risus. In sed feugiat ante. Suspendisse potenti. In hac habitasse platea dictumst. Praesent feugiat ultrices sodales. Ut eget euismod orci, a porta lorem. Proin a auctor libero.</p><p>Donec et neque vitae massa ultricies condimentum nec eu ex. Aliquam et lobortis magna. Curabitur lacinia dolor vel luctus finibus. Curabitur auctor massa at odio dictum pretium. Donec interdum imperdiet consectetur. Donec congue sem sed magna ornare, id eleifend velit gravida. Aenean metus metus, mollis eget felis vitae, fringilla fermentum nibh. Morbi tincidunt ipsum orci, at consectetur leo tincidunt eget. Praesent interdum condimentum diam. Donec ac felis et risus faucibus porttitor. Donec auctor suscipit enim. Maecenas sed sodales purus, eu tristique ex. Phasellus velit dui, scelerisque nec facilisis varius, finibus quis mauris. Aenean dapibus tellus libero, ac varius turpis accumsan quis. Sed pellentesque lacus quis neque rutrum, pretium tempus mi volutpat.</p><p>Donec ac enim id ipsum sollicitudin eleifend non ac ex. Morbi consequat sagittis odio, ac dapibus turpis cursus vel. Nam eget ante faucibus, tincidunt ante in, euismod magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse a felis quam. Ut quis eros semper tellus sollicitudin blandit in in urna. Fusce tristique finibus metus ut tempus. Ut tempor, lacus et accumsan pulvinar, risus nulla laoreet ipsum, at sollicitudin nunc massa a erat. Maecenas tincidunt augue ut ante congue, ut faucibus erat placerat.</p>",
-			"byline": " – Suzy Q"
+			"byline": " – Katie Shepherd"
 		},
 		{
-			"name": "Joe Jones",
-			"country": "Myanmar", 
-			"year": 2007,
-			"photo": "<img src='http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg' height='400' width='300'>",
+			"name": "Tenzin Paljor",
+			"country": "Tibet",
+			"year": 2013,
+			"photo": "<img src='img/tenzin.jpg'>",
 			"location": {
-				"lat": 22.0000,
-				"long": 96.0000 
+				"lat": 28.5667,
+				"long": 86.6333
 			},
-						"profile": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum vulputate enim, et pharetra purus tristique at. Vivamus aliquam sagittis nibh, non volutpat lorem posuere eget. Integer non nisl tellus. Nunc dapibus enim a eros tempus laoreet. Etiam auctor rhoncus sodales. Ut at nunc dolor. Aenean consequat, elit sodales tincidunt dictum, arcu orci commodo urna, eget molestie sapien ligula quis odio. Vivamus vel facilisis elit. Suspendisse libero dolor, tempor porta ultricies ut, dictum porttitor risus. Pellentesque sem justo, pulvinar nec nibh vel, lobortis tincidunt tortor.</p><p>Nunc id urna mauris. Phasellus placerat velit sit amet orci venenatis, a mollis augue iaculis. Integer aliquet nec turpis eget volutpat. Etiam lorem leo, consequat congue mattis in, consectetur quis dui. Integer sollicitudin neque elit, non pretium turpis feugiat eu. Aliquam enim purus, euismod ac risus ac, tincidunt finibus tortor. Mauris facilisis elit lectus, sed dignissim ipsum auctor et. Fusce ac eros lobortis, scelerisque nulla sed, commodo lacus. Pellentesque porta tellus dictum mauris tempor rhoncus. Vestibulum in orci eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce arcu mi, dictum sit amet facilisis nec, aliquet vel justo. Morbi mattis blandit iaculis.</p><p>Morbi non nibh id augue accumsan porttitor eu id metus. Integer arcu dui, scelerisque a vestibulum quis, auctor id mauris. Aenean nunc lectus, rutrum et posuere vitae, blandit id nunc. Sed sed mauris sed nunc efficitur dignissim. Sed facilisis varius nunc, vel euismod elit pulvinar et. Nunc fermentum non risus vel feugiat. Nullam sem libero, fermentum quis feugiat at, laoreet ut leo. In tincidunt quam vitae tincidunt iaculis. Pellentesque dignissim libero sed lorem porta gravida. Aenean eget neque pellentesque, hendrerit arcu non, efficitur risus. In sed feugiat ante. Suspendisse potenti. In hac habitasse platea dictumst. Praesent feugiat ultrices sodales. Ut eget euismod orci, a porta lorem. Proin a auctor libero.</p><p>Donec et neque vitae massa ultricies condimentum nec eu ex. Aliquam et lobortis magna. Curabitur lacinia dolor vel luctus finibus. Curabitur auctor massa at odio dictum pretium. Donec interdum imperdiet consectetur. Donec congue sem sed magna ornare, id eleifend velit gravida. Aenean metus metus, mollis eget felis vitae, fringilla fermentum nibh. Morbi tincidunt ipsum orci, at consectetur leo tincidunt eget. Praesent interdum condimentum diam. Donec ac felis et risus faucibus porttitor. Donec auctor suscipit enim. Maecenas sed sodales purus, eu tristique ex. Phasellus velit dui, scelerisque nec facilisis varius, finibus quis mauris. Aenean dapibus tellus libero, ac varius turpis accumsan quis. Sed pellentesque lacus quis neque rutrum, pretium tempus mi volutpat.</p><p>Donec ac enim id ipsum sollicitudin eleifend non ac ex. Morbi consequat sagittis odio, ac dapibus turpis cursus vel. Nam eget ante faucibus, tincidunt ante in, euismod magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse a felis quam. Ut quis eros semper tellus sollicitudin blandit in in urna. Fusce tristique finibus metus ut tempus. Ut tempor, lacus et accumsan pulvinar, risus nulla laoreet ipsum, at sollicitudin nunc massa a erat. Maecenas tincidunt augue ut ante congue, ut faucibus erat placerat.</p>",
-						"byline": " – Your Name Here"
+		"profile": "<p>Tenzin Paljor, 46, sits outside the Starbucks on 46th  Street in Queens. His two children, his son, Tenzin Bhakdo, 10, and daughter, Tenzin Dasel, 5, are fixated on their vanilla ice cream. When his daughter gets restless he cradles her in his arms as he tells the story of his journey, a journey that began at roughly his daughter’s age.</p><p>He was 6 years old, he says, when his father, sent him away to escape a lifetime of repression by the Chinese government. His grandfather brought him to India where, in 1985, he was enrolled in a Tibetan children’s school in Bangalore. These schools are associated with the Dalai Lama. Paljor spent life in Bangalore. He grew up at the school, had a job at a monastery, and married a Tibetan woman with whom he started a family. </p><p>Despite settling into life in India, Paljor says that elements of the oppression his family experienced in Tibet followed him to his new home.</p><p>'Although the Indian government has been really helpful to the Tibetans, there are all these hidden issues,' Paljor said, 'There’s discrimination.'</p><p>The police, in particular, were a source of friction, especially when it came to their bureaucratic demands clashing with his work at a monastery.</p><p>'The tension escalated and I no longer felt safe,' he says. 'I lost my peace of mind.'</p> <p>Contact with his family was also difficult; he saw his father only once, 14 years after he was sent away. Paljor believed he could not return home. He was in college and unable to return to Tibet so his family met him on the border of Tibet and Nepal.</p><p>'It was really this kind of happiness and unhappiness,' he says. 'Members of my family were political prisoners in Tibet. Because of my family history, it would be very dangerous for me to return. I am afraid that if I return, I will be arrested on the spot,' Paljor says, 'Tibet is no life and there’s great risk staying in India.'</p><p>So Paljor decided to come America, leaving his wife and children behind. He arrived in New York in 2013 alone and with nothing. Finding work was difficult, without paperwork he could only get jobs that paid in cash. Paljor went to California and began seeking refugee status.</p><p>'This was the hardest part of my life, my family was still in Bangalore, I hadn’t seen them for almost two years, and I wasn’t getting approved. I was getting very desperate. I was out of control,' he says. 'Sometimes I would go to the (refugee) office and cry in front of everyone there.'</p><p>After months of trying, he returned to New York where, a week after his return he learned his application was approved. His family joined him in New York in July. </p><p>'That was my happiest day,' he says, 'seeing my kids and wife after two years, it was too long. '</p><p>Paljor is a cashier at a Trader Joe’s, a job he says he likes. His wife, however, has had trouble finding work and raising children in New York on one salary can be difficult.</p><p>And though he has his family with him, the scars of his early life remain. </p><p>'The most difficult part now is not being able to see my parents,' said Paljor.</p><p>His eyes are downcast as he fights to even his trembling voice, 'I don’t have any feelings for my parents. I don’t have any love for them because I didn’t get any affection from my parents. I was raised in that school; there was no parental support. When I am here in the U.S., I see the relationship between parents and children here is so deep, I didn’t get that…this is still the main disease that haunts me.'</p>",
+		"byline": " – Saher Khan"
+		},
+		{
+			"name": "Ashin Indaka",
+			"country":"Myanmar",
+			"year":"1982",
+			"photo": "<img src='img/Indaka.jpg'>",
+			"location": {
+				"lat": 20.45,
+				"long": 99.8833
+			},
+			"profile": "",
+			"byline": " – C. P. Northcott"
+		},
+		{
+			"name": "Jenet Dolley",
+			"country": "Liberia",
+			"year": "2006",
+			"photo": "<img src='img/Jenet.jpg'>",
+			"location": {
+				"lat": 6.3133,
+				"long": -10.8014
+			},
+			"profile": "profile coming soon",
+			"byline": " – Pete Vernon"
+		},
+		{
+			"name": "Reuben Koroma",
+			"country": "Sierra Leone",
+			"year": "2005",
+			"photo": "<img src='img/koroma.jpg'>",
+			"location": {
+				"lat": 8.4844,
+				"long": 13.2344
+			},
+			"profile": "profile coming soon",
+			"byline": " – Scott Selmer"
+		},
+		{
+			"name": "Ermad Rahim",
+			"country": "Cambodia",
+			"year": "1984",
+			"photo": "<img src='img/rahim1.jpg'>",
+			"location": {
+				"lat": 11.544873,
+				"long": 104.892167
+			},
+			"profile": "<p>Ermad Rahim fled Cambodia in the early 1980s. He was born, he says, in a Khmer Rouge concentration where his father and older brother both died. His mother brought him to the United States at a time when Cambodia was being riven by civil war.</p><h3><p> 'We originally landed in Long Beach, California and for a few months we were trying to figure out where the refugee programs were. We came to realize a lot of the Catholic organizations and families were in Syracuse, New York but after a series of moves we ended up in Brooklyn when I was five years old. </p><p>'My mother spent most of her time trying to survive on food stamps, public assistance, and trying to find work. She didn’t know how to operate the public transport. My mother didn’t know the language and there was no type of ESL support. There was no one to help her navigate the system.</p><p>'Public assistance came and went pretty soon and it felt like we were by ourselves. Catholic organizations gave a small window of help and after that we were passed on to other Cambodian communities. But Cambodian communities are very tribal and they came and went too.</p><p>'My mom and stepfather were given just a few months to find work, and they had a caseworker, so this made it difficult to continue to be employed. The time that you weremeant to meet with the caseworker was during the day, but no one drove or had money to drive. If she didn’t show up you lost your food stamps benefits. There was no support and no empathy. There was no way you could survive.</p><p>'My stepfather was extremely abusive. [Refugees] arrive with trauma and a lot of people arrive with mental illnesses. There’s a lot of hurting each other, gambling and no resources to help people.'</p></h3><p>The family eventually settled in Sunset Park, Brooklyn. Rahim went on to earn degrees at Oklahoma State University, Colorado Technical College and Harvard’s Graduate School of Education.  He is an Associate Professor at Bellevue University, in Nebraska.</p>",
+			"byline": " – Rosa O'Hara"
+		},
+		{
+			"name": "Kahin Adam",
+			"country": "Somalia",
+			"year": "2000",
+			"photo": "<img src='img/adam.jpg'>",
+			"location": {
+				"lat": 2.0333,
+				"long": 45.3500
+			},
+			"profile": "profile coming soon",
+			"byline": " – Sanaz Rizlenjani"
+		},
+		{
+			"name": "Atif Rahman",
+			"country": "Afghanistan",
+			"year": "2014",
+			"photo": "<img src='img/rahman.jpg'>",
+			"location": {
+				"lat": 33,
+				"long": 65
+			},
+			"profile": "profile coming soon",
+			"byline": " – Zara Lockshin"
 		}
 ]
