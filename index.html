@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset=utf-8 />
-<title>Refugees Among Us</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
-<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
-<link href='main.css' />
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-</style>
-</head>
+	<head>
+	<meta charset=utf-8 />
+	<title>Refugees Among Us</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.css' rel='stylesheet' />
+	<link rel="stylesheet" href="main.css">
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<style>
+	  body { margin:0; padding:0; }
+	  #map { position:absolute; top:0; bottom:0; width:100%; }
+	</style>
+	</head>
 <body>
 
 <div id='map'></div>
+
 <script>
 L.mapbox.accessToken = 'pk.eyJ1Ijoia21zaGVwaGVyZCIsImEiOiIyZDU4MzI3YTA4MWNlYzQ4ZGRhNDQwNjViZWMyZWVlOCJ9.5Oi_IH7HzzQXKLX8edieoQ';
 var map = L.mapbox.map('map', 'kmshepherd.cieejsdpl027csjm2hgen2ywf')
     .setView([22.7850, 5.5228], 3);
 
-var popup = L.popup()
-	.setLatLng([18.1824, -77.3218])
-	.setContent('<p>Hello world!<br />This is a nice popup.</p>')
-	.openOn(map);
+$.getJSON('refugees.json', function(json) {
+	console.log(json);
+	json.forEach(function(j) {
+		console.log(j);
+		L.mapbox.featureLayer({
+		    type: 'Feature',
+		    geometry: {
+		        type: 'Point',
+		        coordinates: [
+		        j.location.long,
+		        j.location.lat
+		        ]
+		    },
+		    properties: {
+		        title: j.name,
+		        description: j.country,
+		        'marker-size': 'large',
+		        'marker-color': '#BE9A6B'
+		    }
+		}).bindPopup(
+			j.photo+"<h1>"+j.name+"</br>"+j.country+"</br>"+j.year+"</h1>"+"</br>"+"<h4>"+j.profile+"<h4>"+"<h5>"+j.byline+"</h5>", 
+			{
+				minWidth: 500,
+				maxHeight: 500
+			})
+			.openPopup()
+			.addTo(map);
+	})
+});
 </script>
 </body>
 </html>
