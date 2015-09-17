@@ -24,9 +24,9 @@
 			"byline": " – S. Baral"
 		},
 		{
-			"name": "Thomas Martin", 
-			"country": "Jamaica", 
-			"year": 2013,
+			"name": "<span class='name'>Thomas Martin</span", 
+			"country": "<span class='country'>Jamaica</span>", 
+			"year": "<span class='year'>2013</span",
 			"photo": "<img src='http://theink.nyc/wp-content/uploads/2015/09/martin.jpg'>",
 			"location": {
 				"lat": 18.1824, 
